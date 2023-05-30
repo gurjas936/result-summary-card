@@ -1,0 +1,164 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+  box-shadow: 10px 5px 5px #888888;
+  border-radius: 25px;
+}
+
+.first-card{
+display: flex;
+flex: 1 1;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+padding: 20px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 25px;
+background-image: linear-gradient(to bottom, #6742ff , #302ce9);
+}
+
+p {
+  color: #b7aae5;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  background-image: linear-gradient(to bottom ,#4326d3, #4a36f3 );
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.remarks {
+  text-align: center;
+}
+
+
+
+/* second card */
+
+.second-card{
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  border-radius: 8px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 8%;
+  color: black;
+  }
+
+  .reaction, .memory, .verbal, .visual {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .reaction > h4, .memory > h4, .verbal > h4, .visual > h4 {
+    margin-right: auto;
+  }
+
+  .reaction > h4 {
+    color: #b8656c;
+  }
+
+  .memory > h4 {
+    color: #c5ab49;
+  }
+
+  .verbal > h4 {
+    color: #389780;
+  }
+
+  .visual > h4 {
+    color: #1b207a;
+  }
+
+  .reaction {
+    background-color: #fff7f4;
+  }
+
+  .memory {
+    background-color: #fffbf2;
+  }
+
+  .verbal {
+    background-color: #f4faf8;
+  }
+
+  .visual {
+    background-color: #f4f3fb ;
+  }
+
+  .second-card > section {
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+section > h5 > span{
+  color: #9e979d;
+}
